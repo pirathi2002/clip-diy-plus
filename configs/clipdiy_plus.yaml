@@ -1,0 +1,20 @@
+prompts: fixed
+synonyms: false
+bg_prompts: concepts
+scales:
+- 256
+- 128
+- 64
+flip: false
+saliency: true
+fusion: prob
+temperature: 100.0
+bg_weight: 0.2
+class_filter: 0.0
+filter_source: global
+sal_refine: 1.0
+refine: true
+refine_knn: 256
+refine_tau: 0.2
+refine_iters: 2
+upsample: score

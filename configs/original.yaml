@@ -1,0 +1,9 @@
+# Official CLIP-DIY settings (configs/cfg_clip_pascal.yaml in the upstream repo), incl. its prompt-article bug.
+prompts: original
+synonyms: false
+bg_prompts: background
+scales: [256, 128, 64]
+flip: false
+saliency: true
+fusion: original
+upsample: label

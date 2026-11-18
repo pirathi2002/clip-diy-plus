@@ -1,0 +1,15 @@
+# PyTorch: install the build matching your CUDA driver first, e.g.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+# (tested with torch 2.14.1 / torchvision 0.29.1 on a GTX 1650, 4 GB)
+transformers==4.57.1
+numpy<2.4
+opencv-python-headless
+pillow
+pyyaml
+tqdm
+matplotlib
+pandas
+tabulate
+pycocotools
+gradio
+pytest

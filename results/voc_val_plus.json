@@ -1,0 +1,50 @@
+{
+  "config": {
+    "prompts": "fixed",
+    "synonyms": false,
+    "bg_prompts": "concepts",
+    "scales": [
+      256,
+      128,
+      64
+    ],
+    "flip": false,
+    "saliency": true,
+    "fusion": "prob",
+    "temperature": 100.0,
+    "bg_weight": 0.2,
+    "class_filter": 0.0,
+    "filter_source": "global",
+    "sal_refine": 1.0,
+    "refine": true,
+    "refine_knn": 256,
+    "refine_tau": 0.2,
+    "refine_iters": 2,
+    "upsample": "score"
+  },
+  "mIoU": 0.647989234605309,
+  "pixel_acc": 0.9078880959278289,
+  "per_class": {
+    "background": 0.9014646332805705,
+    "aeroplane": 0.8485778128167825,
+    "bicycle": 0.37824650264383003,
+    "bird": 0.8288439345358594,
+    "boat": 0.6525864219800218,
+    "bottle": 0.7085092373833224,
+    "bus": 0.8206393937951878,
+    "car": 0.7211396481919158,
+    "cat": 0.8448474192212952,
+    "chair": 0.16008582311522945,
+    "cow": 0.8354745227694125,
+    "diningtable": 0.24815903801623773,
+    "dog": 0.837450577287663,
+    "horse": 0.7456550819800468,
+    "motorbike": 0.6860173146137942,
+    "person": 0.6349931553277145,
+    "potted plant": 0.4103435600028877,
+    "sheep": 0.8802154684267324,
+    "sofa": 0.3028448658385887,
+    "train": 0.7396277006346543,
+    "tv/monitor": 0.4220518148497406
+  }
+}
